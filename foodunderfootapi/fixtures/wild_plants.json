@@ -1,0 +1,114 @@
+[
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 1,
+        "fields": {
+            "common_name": "blackberry",
+            "latin_name": "Rubus sp.",
+            "alternate_names": "null",
+            "latin_family": "Rosaceae - Rose family",
+            "description": "Perennial bush with dark reddish black berries and white flowers",
+            "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nic.funet.fi%2Fpub%2Fsci%2Fbio%2Flife%2Fplants%2Fmagnoliophyta%2Fmagnoliophytina%2Fmagnoliopsida%2Frosaceae%2Frubus%2Fsp-1.jpg&f=1&nofb=1&ipt=431beab80f340cd8d0241803dcb5ee4b13b8786653af95c2a496bfa46b240914&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=RUBUS",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 2,
+        "fields": {
+            "common_name": "pawpaw",
+            "latin_name": "Asiminia triloba",
+            "alternate_names": "False banana, pawpaw apple, custard apple, custard banana, poor mans banana, white plum",
+            "latin_family": "Annoconaceae - Custard Apple family",
+            "description": "This perennial tree or shrub grows from 3 to 12 m tall. The drooping, pear-shaped leaves are alternate, from 10 to 30 cm long, with smooth margins and pointed tips.  The leaves are coated with fine whitish hairs on the upper surface with rusty-colored hairs on the under-side.  Leaves are aromatic, with a smell reminiscent of bell pepper. Inconspicuous but interesting flowers (4 to 5cm in diameter) with 3 sepals, are green upon opening and turn to dark purple or maroon in color.  From 1 to 4 flowers grow in the leaf axils before leafing, usually in April or May.  The six velvety petals (2cm-2.5cm long) are stiff and curl slightly backwards.  Yellowish green to brown, cylindrical, mango-shaped fruits are 7-16 cm long and grow solitarily or 2 to 4 together.  The large fruits (5 to 16 ounces) ripen between August and October.  Fruits have a thin skin, which contain a yellow custard-like pulp that is said to taste like papaya.  Some varieties contain a whitish-green pulp that is less flavorful.  Fruits contain several flat 2cm long seeds.  The deciduous leaves turn bright yellow before dropping in the fall.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Feadn-wc03-3656787.nxedge.io%2Fcdn%2Fwp-content%2Fuploads%2F2013%2F09%2FPawpaw-Trees.jpg&f=1&nofb=1&ipt=f112f6bf926c232a34926457245bf4df2dcff0f6502f06e8796f75014c7c91c2&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=ASTR",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 3,
+        "fields": {
+            "common_name": "ramp",
+            "latin_name": "Allium tricoccum",
+            "alternate_names": "wild leek, wild garlic",
+            "latin_family": "Liliaceae - Lily family",
+            "description": "A vegetive perennial plant renowned for its vibrant green, lance-shaped leaves and pungent onion-garlic aroma. It thrives in rich, deciduous woodlands, carpeting the forest floor with its lush foliage during the early spring. Ramps are among the first plants to emerge in this season, boasting delicate white star-shaped flowers in late spring. Beneath the soil, they develop small, elongated white bulbs, which are prized for their mild garlic and onion flavor and are a sought-after culinary ingredient. Due to slow growth, sustainable harvesting is crucial to conserve this beloved wild edible and its woodland habitat.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WJp8xvZfnMoZou_LIjEztAHaLL%26pid%3DApi&f=1&ipt=b8ffd460ab85a811d2ce2dee70a6ff9d076ade4652b273fe3e5ed5b147120aae&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=ALTR3",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 4,
+        "fields": {
+            "common_name": "common chickweed",
+            "latin_name": "Stellaria media",
+            "alternate_names": "chickenwort, winterweed",
+            "latin_family": "Caryophyllaceae - Pink family",
+            "description": "A small, low-growing herbaceous plant found in many parts of the world. Its appearance is characterized by a delicate, sprawling habit with oval leaves and tiny, star-shaped white flowers. Common chickweed is adaptable and can thrive in a variety of environments, from gardens and lawns to fields and disturbed areas. It is known for its rapid growth and ability to form dense mats of foliage. Chickweed's tender leaves are edible and have a mild, fresh flavor, making them a popular addition to salads and as a garnish. This resilient plant's ability to grow in diverse conditions and its culinary appeal have made it a well-known and versatile wild edible.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FkrQcabfvrMd_SyaQOitPgHaE6%26pid%3DApi&f=1&ipt=d2b91191c7d80f65d364094fd0976f6af6a6e709493a2904acd9261440dcb6be&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=STME2",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 5,
+        "fields": {
+            "common_name": "dandelion",
+            "latin_name": "Taraxacum officinale",
+            "alternate_names": "lion's tooth, wild endive",
+            "latin_family": "Asteraceae - Aster family",
+            "description": "A widely recognized and versatile herbaceous plant that thrives in many parts of the world. Known for its distinctive appearance, dandelions typically feature bright yellow flowers composed of numerous ray-like petals and a fluffy seed head, which transforms into the iconic dandelion clock as it matures. Its jagged, tooth-like leaves form a rosette at the base of the plant. Dandelions are known for their resilience and ability to grow in diverse environments, including lawns, meadows, and even cracks in sidewalks. Beyond its ornamental charm, this plant has culinary and medicinal uses. Its leaves are edible and nutritious, often used in salads, and its roots have been employed in traditional herbal remedies. Dandelions, despite their reputation as weeds, play a valuable role in ecosystems and are appreciated by foragers, herbalists, and herbal enthusiasts for their many attributes.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.QDC3JEY4Ar93nh-D0so2swHaGU%26pid%3DApi&f=1&ipt=dd35cdc327fa6a84c55c5e589810e2ea8ac2718a2eb43f4396be842a16b2e837&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=TARAX",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 6,
+        "fields": {
+            "common_name": "chanterelle",
+            "latin_name": "Cantharellus sp.",
+            "alternate_names": "golden chanterelle, smooth chanterelle",
+            "latin_family": "Cantharellaceae",
+            "description": "Chanterelles are a coveted and distinctive species of wild mushrooms. Their striking appearance includes a vibrant golden to orange-yellow coloration, with a cap that typically features a wavy, vase-like shape. The undersides of the caps bear a distinctive network of ridges instead of traditional gills, a feature that helps identify them. Chanterelles have a delicate, almost fruity aroma, and their flavor is described as mild, nutty, and slightly peppery. They are cherished by culinary enthusiasts for their superb taste and culinary versatility. These mushrooms are often found in association with hardwood trees, particularly in mossy, damp woodlands. Renowned for their delightful taste and visually appealing form, chanterelle mushrooms are a prized ingredient in gourmet dishes around the world, making them a true treasure of the forest floor.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.BEX0_2TuSz0-QRLN5MY86QHaFk%26pid%3DApi&f=1&ipt=3e5e804335221b7252522e7eca55204d73707946f71495f2f57ad5f207ba947c&ipo=images",
+            "link_to_usda": "null",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 7,
+        "fields": {
+            "common_name": "oyster mushroom",
+            "latin_name": "Pleurotus ostreatus",
+            "alternate_names": "tree oyster, grey oyster",
+            "latin_family": "Pleurotaceae",
+            "description": "Oyster mushrooms are highly regarded edible fungi known for their unique appearance and delicate flavor. They typically have a fan- or oyster-shaped cap that ranges in color from white to various shades of gray and tan. The gills on the undersides of the cap are white and run down the short stem, which is often off-center. Oyster mushrooms are appreciated for their subtle, mild, and slightly nutty taste, making them a versatile ingredient in various cuisines. They are commonly cultivated and also found growing in the wild, often on the trunks of deciduous trees.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.f-XWsgA8zfbdT1trFZibTgHaJM%26pid%3DApi&f=1&ipt=50b60cc1091f382fcf29f136aa5489c7b7221ada3cfc522718db94b8e6f0e59c&ipo=images",
+            "link_to_usda": "null",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 8,
+        "fields": {
+            "common_name": "american persimmon",
+            "latin_name": "Diospyros virginiana",
+            "alternate_names": "wild persimmon, possumwood",
+            "latin_family": "Ebenaceae - Ebony family",
+            "description": "A small, deciduous trees native to North America. They bear sweet, orange to purplish-black fruits that are known for their rich flavor and custard-like texture when ripe. These fruits have a sweet and subtly spicy taste. Wild American persimmons can be eaten fresh or used in various culinary applications, such as baking, jams, and desserts. In addition to wild American persimmon, these persimmons are prized for their unique flavor and are a cherished find for foragers in their native habitats.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuky.arboretumexplorer.org%2FAppImages%2F26.jpg&f=1&nofb=1&ipt=de642f37a6a37bdd00d4bec79553faf68d79a75408c7b0068d40cdba91c04eb3&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=DIVI5",
+            "created_by": 1
+        }
+    }
+]

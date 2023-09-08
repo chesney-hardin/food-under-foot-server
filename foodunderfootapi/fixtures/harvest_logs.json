@@ -1,0 +1,20 @@
+[
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "date": "2023-08-27",
+            "wild_plant": 2,
+            "plant_part": 2,
+            "latitude": 36.301549,
+            "longitude": -86.770580,
+            "isPublicLocation": false,
+            "quantity": "45 pounds",
+            "title": "Really awesome pawpaw harvest!!",
+            "description": "Wow! This was possibly my best pawpaw harvest EVER. I mostly focused on searching the woods edge near creeks and other waterways. I shook the trees so some unripe ones fell, but I expect that they will ripen up just fine at home. I will definitely plan to come back here next year. Time for some pawpaw wine!",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ifuSgEBbh7aE5jXmjqVK-wHaE8%26pid%3DApi&f=1&ipt=5b802100aec2fa0edcf247a4ed3372a3eca237aec6f37d663eda4890466f9861&ipo=images",
+            "isPublic": true
+        }
+    }
+]
