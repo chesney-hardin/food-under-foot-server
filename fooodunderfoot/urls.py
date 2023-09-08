@@ -1,10 +1,18 @@
 from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
-from foodunderfootapi.views import register_user, login_user
+from django.conf.urls import include
+from rest_framework import routers
+from foodunderfootapi.views import register_user, login_user, EdiblePartView, HarvestLogView, PlantPartView, WildPlantView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'harvestlogs', HarvestLogView, 'harvestlog')
+router.register(r'plantparts', PlantPartView, 'plantpart')
+router.register(r'wildplants', WildPlantView, 'wildplant')
 
 urlpatterns = [
     path('register', register_user),
     path('login', login_user),
     path('admin/', admin.site.urls),
+    path('', include(router.urls)),
 ]
