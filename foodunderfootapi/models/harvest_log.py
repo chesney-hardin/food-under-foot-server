@@ -15,3 +15,4 @@ class HarvestLog(models.Model):
     description = models.CharField(max_length=999)
     image = models.CharField(max_length=299)
     isPublic = models.BooleanField(default=False)
+

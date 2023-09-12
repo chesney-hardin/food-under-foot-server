@@ -11,3 +11,7 @@ class TipsAndRecipes(models.Model):
     image = models.CharField(max_length=299)
     isRecipe = models.BooleanField(default=False)
     isApproved = models.BooleanField(default=False)
+
+    def __str__(self) -> str:
+        return f'{self.title}'
+ 

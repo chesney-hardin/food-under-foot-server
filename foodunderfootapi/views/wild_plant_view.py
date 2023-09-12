@@ -9,7 +9,7 @@ class WildPlantView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all wild plants"""
-        wild_plants = WildPlant.objects.all()
+        wild_plants = WildPlant.objects.all().order_by('common_name')
         serialized = WildPlantSerializer(wild_plants, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
@@ -19,6 +19,21 @@ class WildPlantView(ViewSet):
         wild_plant = WildPlant.objects.get(pk=pk)
         serialized = WildPlantSerializer(wild_plant)
         return Response(serialized.data, status=status.HTTP_200_OK)
+    
+    def create(self, request):
+        """Handle POST requests to create a new wild plant"""
+        wild_plant = WildPlant.objects.create(
+            common_name=request.data["common_name"],
+            latin_name= request.data["latin_name"],
+            alternate_names= request.data["alternate_names"],
+            latin_family= request.data["latin_family"],
+            description= request.data["description"],
+            image= request.data["image"],
+            link_to_usda= request.data["link_to_usda"],
+            created_by= request.auth.user
+        )
+        serialized = WildPlantSerializer(wild_plant)
+        return Response(serialized.data, status=status.HTTP_201_CREATED)
 
 class EdiblePartsOfPlantSerializer(serializers.ModelSerializer):
     class Meta:

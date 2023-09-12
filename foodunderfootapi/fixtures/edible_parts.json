@@ -5,8 +5,9 @@
         "fields": {
             "wild_plant": 1,
             "plant_part": 1,
-            "harvest_start": "03-01",
-            "harvest_end": "06-01",
+            "usability": 2,
+            "harvest_start": "03",
+            "harvest_end": "06",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ifuSgEBbh7aE5jXmjqVK-wHaE8%26pid%3DApi&f=1&ipt=5b802100aec2fa0edcf247a4ed3372a3eca237aec6f37d663eda4890466f9861&ipo=images"
         }
     },
@@ -16,8 +17,9 @@
         "fields": {
             "wild_plant": 1,
             "plant_part": 2,
-            "harvest_start": "06-15",
-            "harvest_end": "08-15",
+            "usability": 1,
+            "harvest_start": "06",
+            "harvest_end": "08",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.tXRY6BoUtFZzS5Cja2bTlAHaFj%26pid%3DApi&f=1&ipt=49aa7ff2ea2bd5f216acc83fed99c38b27f15f3e42f405a2eadc0731d61387e9&ipo=images"
         }
     },
@@ -27,8 +29,9 @@
         "fields": {
             "wild_plant": 2,
             "plant_part": 2,
-            "harvest_start": "08-15",
-            "harvest_end": "09-30",
+            "usability": 1,
+            "harvest_start": "08",
+            "harvest_end": "09",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.6XNlswKLyUgmLbpIliqujQHaFj%26pid%3DApi&f=1&ipt=9d728dc81f85b0523108bb1732529f224f16d80d3fed278f4fd6a7d1b986ff77&ipo=images"
         }
     },
@@ -38,8 +41,9 @@
         "fields": {
             "wild_plant": 3,
             "plant_part": 3,
-            "harvest_start": "03-15",
-            "harvest_end": "04-15",
+            "usability": 2,
+            "harvest_start": "03",
+            "harvest_end": "04",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.urPQwbe3VCQEbKXoEkjRHgHaJQ%26pid%3DApi&f=1&ipt=586865130043e26d33a7b9eec886640c4369935a5a1d2ec72330d07b3267be74&ipo=images"
         }
     },
@@ -49,8 +53,9 @@
         "fields": {
             "wild_plant": 3,
             "plant_part": 1,
-            "harvest_start": "03-01",
-            "harvest_end": "04-15",
+            "usability": 2,
+            "harvest_start": "03",
+            "harvest_end": "04",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.growforagecookferment.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fforaged-ramp-leaves-featured.jpg&f=1&nofb=1&ipt=7c14a8e9e62b178b46b827048edbf1b32d117ce3bf8e9cd7048b2076669fda22&ipo=images"
         }
     }
