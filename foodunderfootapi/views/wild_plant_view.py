@@ -34,6 +34,15 @@ class WildPlantView(ViewSet):
         )
         serialized = WildPlantSerializer(wild_plant)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
+    def destroy(self, request, pk):
+        """Delete a wild plant"""
+        try:
+            wild_plant = WildPlant.objects.get(pk=pk)
+            wild_plant.delete()
+            return Response(None, status=status.HTTP_204_NO_CONTENT)
+        except WildPlant.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
 class EdiblePartsOfPlantSerializer(serializers.ModelSerializer):
     class Meta:
