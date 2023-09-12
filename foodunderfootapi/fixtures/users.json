@@ -1,0 +1,32 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$7tQgu6xpLhkOhCmuvKrXcn$YSa74n+qZkPNHyaNGoSnJe/WvTS9t6vraXEhxFkVitU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "admin@foodunderfoot.com",
+            "first_name": "Plantago",
+            "last_name": "Major",
+            "email": "admin@foodunderfoot.com",
+            "is_staff": true,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$den2eD8Rm3VPUD4BTSE9TI$1p7cvpfHzCrVfObUinr2mCtDbtCU9LOTBoikmbTaWyU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "user@foodunderfoot.com",
+            "first_name": "Asimina",
+            "last_name": "Triloba",
+            "email": "user@foodunderfoot.com",
+            "is_staff": false,
+            "is_active": true
+        }
+    }
+]

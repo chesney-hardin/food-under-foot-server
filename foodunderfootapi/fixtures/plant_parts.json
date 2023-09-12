@@ -1,0 +1,58 @@
+[
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 1,
+        "fields": {
+            "label": "leaf"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 2,
+        "fields": {
+            "label": "fruit"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 3,
+        "fields": {
+            "label": "root"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 4,
+        "fields": {
+            "label": "flower"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 5,
+        "fields": {
+            "label": "bark"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 6,
+        "fields": {
+            "label": "sap"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 7,
+        "fields": {
+            "label": "nut/seed"
+        }
+    },
+    {
+        "model": "foodunderfootapi.plantpart",
+        "pk": 8,
+        "fields": {
+            "label": "mushroom"
+        }
+    }
+]
