@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from foodunderfootapi.models import WildPlant, PlantPart, HarvestLog
 from django.contrib.auth.models import User
+import datetime
 
 
 class HarvestLogView(ViewSet):
@@ -26,6 +27,25 @@ class HarvestLogView(ViewSet):
         harvest_log = HarvestLog.objects.get(pk=pk)
         serialized = HarvestLogSerializer(harvest_log)
         return Response(serialized.data, status=status.HTTP_200_OK)
+    
+    def create(self, request):
+        """Handle POST requests to add an edible part to a plant"""
+
+        harvest_log = HarvestLog.objects.create(
+            user = request.auth.user,
+            wild_plant = WildPlant.objects.get(pk=request.data["wild_plant"]),
+            plant_part = PlantPart.objects.get(pk=request.data["plant_part"]),
+            longitude = request.data['longitude'],
+            latitude = request.data['latitude'],
+            isPublicLocation = request.data["isPublicLocation"],
+            quantity = request.data["quantity"],
+            title = request.data["title"],
+            description = request.data["description"],
+            image= request.data["image"],
+            isPublic = request.data["isPublic"]
+        )
+        serialized = HarvestLogSerializer(harvest_log)
+        return Response(serialized.data, status=status.HTTP_201_CREATED)
     
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
