@@ -12,12 +12,14 @@ class HarvestLogView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all harvest logs"""
-        harvest_logs = HarvestLog.objects.all()
+        harvest_logs = HarvestLog.objects.all().order_by('date')
         if "public" in request.query_params:
             harvest_logs = harvest_logs.filter(isPublic = True)
             if "plant" in request.query_params:
                 pk= request.query_params['plant']
                 harvest_logs = harvest_logs.filter(wild_plant=pk)
+        if "user" in request.query_params:
+            harvest_logs = harvest_logs.filter(user=request.auth.user)
         serialized = HarvestLogSerializer(harvest_logs, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
@@ -35,6 +37,7 @@ class HarvestLogView(ViewSet):
             user = request.auth.user,
             wild_plant = WildPlant.objects.get(pk=request.data["wild_plant"]),
             plant_part = PlantPart.objects.get(pk=request.data["plant_part"]),
+            date = request.data['date'],
             longitude = request.data['longitude'],
             latitude = request.data['latitude'],
             isPublicLocation = request.data["isPublicLocation"],
@@ -46,6 +49,36 @@ class HarvestLogView(ViewSet):
         )
         serialized = HarvestLogSerializer(harvest_log)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
+    def destroy(self, request, pk):
+        """Delete a harvest log"""
+        try:
+            harvest_log = HarvestLog.objects.get(pk=pk)
+            harvest_log.delete()
+            return Response(None, status=status.HTTP_204_NO_CONTENT)
+        except WildPlant.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        
+    def update(self, request, pk):
+        """Update a harvest log"""
+        harvest_log = HarvestLog.objects.get(pk=pk)
+
+        harvest_log.wild_plant = WildPlant.objects.get(pk=request.data["wild_plant"])
+        harvest_log.plant_part = PlantPart.objects.get(pk=request.data["plant_part"])
+        harvest_log.date = request.data['date']
+        harvest_log.longitude = request.data['longitude']
+        harvest_log.latitude = request.data['latitude']
+        harvest_log.isPublicLocation = request.data['isPublicLocation']
+        harvest_log.quantity = request.data['quantity']
+        harvest_log.title = request.data['title']
+        harvest_log.description = request.data["description"]
+        harvest_log.image = request.data["image"]
+        harvest_log.isPublic = request.data["isPublic"]
+        harvest_log.user = User.objects.get(pk=request.data['user'])
+
+        harvest_log.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
     
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

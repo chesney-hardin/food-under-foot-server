@@ -3,7 +3,7 @@ from django.conf.urls import include
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from foodunderfootapi.views import register_user, login_user, EdiblePartView, HarvestLogView, PlantPartView, WildPlantView, UsabilityView
+from foodunderfootapi.views import register_user, login_user, UserView, EdiblePartView, HarvestLogView, PlantPartView, WildPlantView, UsabilityView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'harvestlogs', HarvestLogView, 'harvestlog')
@@ -11,6 +11,7 @@ router.register(r'plantparts', PlantPartView, 'plantpart')
 router.register(r'wildplants', WildPlantView, 'wildplant')
 router.register(r'edibleparts', EdiblePartView, 'ediblepart')
 router.register(r'usabilitytypes', UsabilityView, 'usabilitytype')
+router.register(r'users', UserView, 'user')
 
 urlpatterns = [
     path('register', register_user),
