@@ -12,6 +12,11 @@ class HarvestLogView(ViewSet):
     def list(self, request):
         """Handle GET requests to get all harvest logs"""
         harvest_logs = HarvestLog.objects.all()
+        if "public" in request.query_params:
+            harvest_logs = harvest_logs.filter(isPublic = True)
+            if "plant" in request.query_params:
+                pk= request.query_params['plant']
+                harvest_logs = harvest_logs.filter(wild_plant=pk)
         serialized = HarvestLogSerializer(harvest_logs, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 

@@ -56,6 +56,20 @@ class EdiblePartView(ViewSet):
             return Response(None, status=status.HTTP_204_NO_CONTENT)
         except WildPlant.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        
+    def update(self, request, pk):
+        """Update an edible part"""
+        edible_part = EdiblePart.objects.get(pk=pk)
+
+        edible_part.wild_plant = WildPlant.objects.get(pk=request.data["wild_plant"])
+        edible_part.plant_part = PlantPart.objects.get(pk=request.data["plant_part"])
+        edible_part.usability = Usability.objects.get(pk=request.data["usability"])
+        edible_part.harvest_start = request.data["harvest_start"]
+        edible_part.harvest_end = request.data["harvest_end"]
+        edible_part.image = request.data["image"]
+
+        edible_part.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 class EdiblePartsOfPlantSerializer(serializers.ModelSerializer):
     class Meta:

@@ -49,16 +49,15 @@ class WildPlantView(ViewSet):
     def update(self, request, pk):
         """Update a wild plant"""
         wild_plant = WildPlant.objects.get(pk=pk)
-        created_by = User.objects.get(pk=request.data['created_by'])
 
-        wild_plant.common_name = request.data["common_name"],
-        wild_plant.latin_name = request.data["latin_name"],
-        wild_plant.alternate_names = request.data["alternate_names"],
-        wild_plant.latin_family = request.data["latin_family"],
-        wild_plant.description = request.data["description"],
-        wild_plant.image = request.data["image"],
-        wild_plant.link_to_usda = request.data["link_to_usda"],
-        wild_plant.created_by = created_by
+        wild_plant.common_name = request.data["common_name"]
+        wild_plant.latin_name = request.data["latin_name"]
+        wild_plant.alternate_names = request.data["alternate_names"]
+        wild_plant.latin_family = request.data["latin_family"]
+        wild_plant.description = request.data["description"]
+        wild_plant.image = request.data["image"]
+        wild_plant.link_to_usda = request.data["link_to_usda"]
+        wild_plant.created_by = User.objects.get(pk=request.data['created_by'])
 
         wild_plant.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
