@@ -11,7 +11,17 @@ class WildPlantView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all wild plants"""
-        wild_plants = WildPlant.objects.all().order_by('common_name')
+        wild_plants = WildPlant.objects.order_by('common_name')
+
+        name_search = request.query_params.get('common_name', None)
+        edible_part = request.query_params.get('edible_part', None)
+
+        if name_search is not None:
+            wild_plants = wild_plants.filter(common_name__icontains=name_search)
+
+        if edible_part is not None:
+            wild_plants = wild_plants.filter(edible_parts__id=edible_part)
+
         serialized = WildPlantSerializer(wild_plants, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
@@ -72,8 +82,7 @@ class EdiblePartsOfPlantSerializer(serializers.ModelSerializer):
 class WildPlantSerializer(serializers.ModelSerializer):
     """JSON serializer for wild plants"""
     edible_parts = EdiblePartsOfPlantSerializer(many=True)
-
     class Meta:
         model = WildPlant
         fields = ('id', 'common_name', 'latin_name', 'alternate_names', 'latin_family',
-                  'description', 'image', 'link_to_usda', 'created_by', 'edible_parts')
+                'description', 'image', 'link_to_usda', 'created_by', 'edible_parts')

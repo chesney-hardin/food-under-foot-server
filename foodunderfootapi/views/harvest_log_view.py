@@ -12,7 +12,13 @@ class HarvestLogView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all harvest logs"""
-        harvest_logs = HarvestLog.objects.all().order_by('date')
+        harvest_logs = HarvestLog.objects.order_by('date')
+
+        title_search = request.query_params.get('title', None)
+
+        if title_search is not None:
+            harvest_logs = harvest_logs.filter(title__icontains=title_search)
+
         if "public" in request.query_params:
             harvest_logs = harvest_logs.filter(isPublic = True)
             if "plant" in request.query_params:
@@ -20,6 +26,7 @@ class HarvestLogView(ViewSet):
                 harvest_logs = harvest_logs.filter(wild_plant=pk)
         if "user" in request.query_params:
             harvest_logs = harvest_logs.filter(user=request.auth.user)
+
         serialized = HarvestLogSerializer(harvest_logs, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
 
