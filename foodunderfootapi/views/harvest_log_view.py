@@ -4,7 +4,6 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 from foodunderfootapi.models import WildPlant, PlantPart, HarvestLog
 from django.contrib.auth.models import User
-import datetime
 
 
 class HarvestLogView(ViewSet):

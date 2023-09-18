@@ -1,0 +1,19 @@
+[
+    {
+        "model": "foodunderfootapi.tipsandrecipes",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "date": "2023-08-29",
+            "wild_plant": 1,
+            "plant_part": 2,
+            "title": "Blackberry Wine!",
+            "description": "To make blackberry wine, start by crushing 4 pounds of fresh blackberries and dissolving 2.5 pounds of granulated sugar in 7.5 pints of water to create a sugar syrup. Add this syrup to the crushed blackberries along with wine yeast and a teaspoon of yeast nutrient. Cover the mixture and let it ferment for 5-7 days, stirring daily. After fermentation, strain the liquid into a clean container, attach an airlock, and let it ferment for another 2-3 weeks. Transfer the wine to another vessel, and if you want to sweeten it, add sugar with a wine stabilizer. Allow the wine to age in a cool, dark place for several months, and consider clarifying it if desired. Bottle the wine and let it rest for a few more months before enjoying this homemade delight, perfect for sipping on warm evenings or gifting to loved ones.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.kIfO4bCImtxECVRFsD49TAHaFj%26pid%3DApi&f=1&ipt=2f401cea88ed2c7879a128911edca7316771fa37bac7f885bc1059b9e0189047&ipo=images",
+            "isRecipe": true,
+            "isApproved": false,
+            "needsReview": true,
+            "reasonUnapproved": ""
+        }
+    }
+]

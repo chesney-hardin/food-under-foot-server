@@ -28,5 +28,20 @@
             "is_staff": false,
             "is_active": true
         }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$den2eD8Rm3VPUD4BTSE9TI$1p7cvpfHzCrVfObUinr2mCtDbtCU9LOTBoikmbTaWyU=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "superuser@foodunderfoot.com",
+            "first_name": "Super",
+            "last_name": "User",
+            "email": "superuser@foodunderfoot.com",
+            "is_staff": true,
+            "is_active": true
+        }
     }
 ]
