@@ -54,7 +54,7 @@ class EdiblePartView(ViewSet):
             edible_part = EdiblePart.objects.get(pk=pk)
             edible_part.delete()
             return Response(None, status=status.HTTP_204_NO_CONTENT)
-        except WildPlant.DoesNotExist as ex:
+        except EdiblePart.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
         
     def update(self, request, pk):

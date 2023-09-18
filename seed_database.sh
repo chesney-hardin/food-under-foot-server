@@ -12,5 +12,5 @@ python3 manage.py loaddata plant_parts
 python3 manage.py loaddata wild_plants
 python3 manage.py loaddata edible_parts
 python3 manage.py loaddata harvest_logs
-python3 manage.py loaddata favorites
 python3 manage.py loaddata tips_and_recipes
+python3 manage.py loaddata favorites

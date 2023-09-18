@@ -26,7 +26,7 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ('id', 'first_name', 'last_name', 'username')
 
-class TipsAndRecipesSerializer(serializers.ModelSerializer)
+class TipsAndRecipesSerializer(serializers.ModelSerializer):
     class Meta:
         model = TipsAndRecipes
         fields = ('id', 'user', 'date', 'wild_plant', 'plant_part', 'title', 'description', 'image', 'isRecipe')
