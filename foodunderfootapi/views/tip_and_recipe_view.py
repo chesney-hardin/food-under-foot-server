@@ -11,7 +11,7 @@ class TipsAndRecipesView(ViewSet):
 
     def list(self, request):
         """Handle GET requests to get all tips and recipes"""
-        tips_and_recipes = TipsAndRecipes.objects.order_by('date')
+        tips_and_recipes = TipsAndRecipes.objects.order_by('-date')
 
         approved = request.query_params.get('approved', None)
         unapproved = request.query_params.get('unapproved', None)
@@ -19,6 +19,7 @@ class TipsAndRecipesView(ViewSet):
         tips = request.query_params.get('tips', None)
         plant = request.query_params.get('plant', None)
         user = request.query_params.get('user', None)
+        needs_review = request.query_params.get('review', None)
 
         if approved is not None:
             tips_and_recipes = tips_and_recipes.filter(isApproved=True)
@@ -37,6 +38,9 @@ class TipsAndRecipesView(ViewSet):
 
         if user is not None:
             tips_and_recipes = tips_and_recipes.filter(user=request.auth.user)
+
+        if needs_review is not None:
+            tips_and_recipes = tips_and_recipes.filter(needsReview = True)
 
         serialized = TipsAndRecipesSerializer(tips_and_recipes, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
