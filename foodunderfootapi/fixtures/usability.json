@@ -22,5 +22,17 @@
             "label": "tea",
             "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Fpremium%2Fpng-256-thumb%2Ftea-cup-49-619075.png&f=1&nofb=1&ipt=76a26de7cd8359be63c6c185728093e7b5744be1f0ee5b02dec212ac8506c51c&ipo=images"
         }
-    }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 8,
+        "fields": {
+            "wild_plant": ,
+            "plant_part": ,
+            "usability": ,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": ""
+        }
+    },
 ]

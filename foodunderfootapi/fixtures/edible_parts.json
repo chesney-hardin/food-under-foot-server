@@ -58,5 +58,377 @@
             "harvest_end": "04",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.growforagecookferment.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fforaged-ramp-leaves-featured.jpg&f=1&nofb=1&ipt=7c14a8e9e62b178b46b827048edbf1b32d117ce3bf8e9cd7048b2076669fda22&ipo=images"
         }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 5,
+        "fields": {
+            "wild_plant": 4,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "03",
+            "harvest_end": "06",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DebIEk4_aw2EzwYhIDAfGAHaGH%26pid%3DApi&f=1&ipt=cf58e79e20e288ffd611575eddd32fcc5c1a35bfc8b1587c1cf7877849e94fac&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 6,
+        "fields": {
+            "wild_plant": 5,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "04",
+            "harvest_end": "06",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.lRPgJfoV0Lk-nkZd9UeoqAHaE9%26pid%3DApi&f=1&ipt=8055abd5579ed22f6b9d0637368e5fe9c9f815c033c86b4405adb4c370b41ee3&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 7,
+        "fields": {
+            "wild_plant": 5,
+            "plant_part": 3,
+            "usability": 3,
+            "harvest_start": "09",
+            "harvest_end": "11",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ikJCsL5VamV3FqIHQRyaoQHaE8%26pid%3DApi&f=1&ipt=cd44a44b88ccf573f4ceff97687a3c657f222853adb84833769540a50dddf835&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 8,
+        "fields": {
+            "wild_plant": 5,
+            "plant_part": 4,
+            "usability": 3,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HY0VIsRN7lFYBusIvuF-_AHaLH%26pid%3DApi&f=1&ipt=48971e566e2c2c4356744c6826312ebfe13d6466ff74591135af03f231ea3aa5&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 9,
+        "fields": {
+            "wild_plant": 6,
+            "plant_part": 8,
+            "usability": 1,
+            "harvest_start": "06",
+            "harvest_end": "08",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.oECGxrXjzv80RNjt_bU9rwHaE9%26pid%3DApi&f=1&ipt=8957c3e7e1fe739ff5beeffba33008d68b4f35a9cef9ee5660911427252a76a6&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 10,
+        "fields": {
+            "wild_plant": 7,
+            "plant_part": 8,
+            "usability": 1,
+            "harvest_start": "09",
+            "harvest_end": "01",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.RTQslA29kCV0TwxiPqllnAHaDt%26pid%3DApi&f=1&ipt=7ab0518f2e78727e6f96d72f71a2e86c4e80714635e22c05540fe454a230a4a5&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 11,
+        "fields": {
+            "wild_plant": 8,
+            "plant_part": 2,
+            "usability": 1,
+            "harvest_start": "09",
+            "harvest_end": "11",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.iefj0gOtNPYejEHd4EFevQHaCe%26pid%3DApi&f=1&ipt=ff6b9b6f05595c5d0ff2d7ec771d10b49237d266446691fac1de8280c92495de&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 12,
+        "fields": {
+            "wild_plant": 9,
+            "plant_part": 4,
+            "usability": 3,
+            "harvest_start": "09",
+            "harvest_end": "10",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.7BCFfXy2L0BLZ3zxOQiZRgHaE8%26pid%3DApi&f=1&ipt=bb40b09551519aecbcaf23b79b4232f85a9ee663a6c94f721512008d37a2525e&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 13,
+        "fields": {
+            "wild_plant": 10,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.nUNHzE8qU3knLvirOfDpDwHaIG%26pid%3DApi&f=1&ipt=063bb9f04f21ab9bc983da77a7ee5fba540993cf2792b197c13a7561b5f8a310&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 14,
+        "fields": {
+            "wild_plant": 10,
+            "plant_part": 4,
+            "usability": 2,
+            "harvest_start": "07",
+            "harvest_end": "08",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.86Z0qgwGdACGjkCwsb8DWwHaFj%26pid%3DApi&f=1&ipt=11de8e8125d041347e966c57dfb3e4fcf4fbb97df4159c51b5f8ed4a0f2e2bb5&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 15,
+        "fields": {
+            "wild_plant": 11,
+            "plant_part": 6,
+            "usability": 1,
+            "harvest_start": "02",
+            "harvest_end": "03",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ao4LR3DBIAD0w1wp0OPl0AHaE7%26pid%3DApi&f=1&ipt=d52c30035e42ed348e7f5a25d4d76a4761534517e405f895bbbf87dd95435b5d&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 16,
+        "fields": {
+            "wild_plant": 12,
+            "plant_part": 1,
+            "usability": 3,
+            "harvest_start": "04",
+            "harvest_end": "10",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.nkmwgsHGn1iqF1JptfapjAHaJJ%26pid%3DApi&f=1&ipt=31c962d82e99505564f37e5ecd1aef5816fb6b30d2090c54ffef69d1a21f48be&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 17,
+        "fields": {
+            "wild_plant": 13,
+            "plant_part": 4,
+            "usability": 3,
+            "harvest_start": "05",
+            "harvest_end": "06",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.7VyXOVfVFg8Ux9TAZGx6zgHaE8%26pid%3DApi&f=1&ipt=fde1be94d564e88ee8266d0ba1065d2c25bbc1d8b797b632abc7dca981743bcf&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 18,
+        "fields": {
+            "wild_plant": 13,
+            "plant_part": 2,
+            "usability": 3,
+            "harvest_start": "06",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Nk888NvWBhhMGnmA2KYIeAHaFj%26pid%3DApi&f=1&ipt=d1a33b2502905224a666ae0d56371c3c0179230de6b609c349496baa558e7607&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 19,
+        "fields": {
+            "wild_plant": 14,
+            "plant_part": 2,
+            "usability": 1,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.6FZPlI8GOzsl6dlAI5tS0gHaE_%26pid%3DApi&f=1&ipt=0102572c28ebe9e8b6bae16dacaf284a49300c6421ccba39a96c68482e8dc6a3&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 20,
+        "fields": {
+            "wild_plant": 15,
+            "plant_part": 6,
+            "usability": 1,
+            "harvest_start": "02",
+            "harvest_end": "03",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Kp15HjAR2PeD_7uyRmVjSAFJC9%26pid%3DApi&f=1&ipt=5b15159218b9a96d59838ed136b1631399fa128ec7e4b9aa4f3d9af954cb629e&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 21,
+        "fields": {
+            "wild_plant": 15,
+            "plant_part": 7,
+            "usability": 1,
+            "harvest_start": "09",
+            "harvest_end": "11",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.hj-tQNZpFoY50g6EnSrb1gHaEy%26pid%3DApi&f=1&ipt=4ca6c3c99956916aaff92781076b9866d92ec95b82ca88c3dcdcab1f2f02b2d0&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 22,
+        "fields": {
+            "wild_plant": 16,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.k_m3bcj0tmeCO_pA9ZChugHaHa%26pid%3DApi&f=1&ipt=4ce1e74858cc4c8b80f41abae92b72e6d2baa6713b5006d93a812b5109efa907&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 23,
+        "fields": {
+            "wild_plant": 16,
+            "plant_part": 4,
+            "usability": 1,
+            "harvest_start": "06",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.hNafAFdLiuQbQrCv7CHXMQHaFj%26pid%3DApi&f=1&ipt=aed90d6c800ac8c62fd9b64426444206e29cdc82a45444d59968cfe8e23ea22a&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 24,
+        "fields": {
+            "wild_plant": 17,
+            "plant_part": 3,
+            "usability": 2,
+            "harvest_start": "10",
+            "harvest_end": "12",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.7T3-ClilGTqeH8QTvsewIwHaFj%26pid%3DApi&f=1&ipt=358ac4fc4fc38a65822004beadea2ada9c39b44f316f286dfbafdf895dc24967&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 25,
+        "fields": {
+            "wild_plant": 17,
+            "plant_part": 1,
+            "usability": 2,
+            "harvest_start": "04",
+            "harvest_end": "09",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.SGqg1OwQ_GUge1b6-8Q75wHaFQ%26pid%3DApi&f=1&ipt=53350190a49397fe609c442518581a0ad39ae63544e2f607aaea8f6371dbef55&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 26,
+        "fields": {
+            "wild_plant": 18,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.s0xkh0mmLkr7BrFADskxxAHaFj%26pid%3DApi&f=1&ipt=0467ba215bfcd1366f7c08a1f6b55f63ba3050ee0730dcd22d813ccf9d11adc3&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 27,
+        "fields": {
+            "wild_plant": 19,
+            "plant_part": 3,
+            "usability": 2,
+            "harvest_start": "06",
+            "harvest_end": "08",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Rzgc41-t4D_rkEXWEv4zngHaGP%26pid%3DApi&f=1&ipt=9a8c18c8af9285373d87b5808f74ede755579689effea22bd14065f63ea167ff&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 28,
+        "fields": {
+            "wild_plant": 20,
+            "plant_part": 1,
+            "usability": 3,
+            "harvest_start": "05",
+            "harvest_end": "09",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.AibmWNSbjuvVwsk5-bsY5QHaF7%26pid%3DApi&f=1&ipt=83e5c92151975e18a40de98a345c5a9671a977a403fda0381e557df5a446b056&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 29,
+        "fields": {
+            "wild_plant": 21,
+            "plant_part": 8,
+            "usability": 1,
+            "harvest_start": "03",
+            "harvest_end": "04",
+            "image": "https://www.mushroom.world/data/fungi/Morchellaesculenta3.jpg"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 30,
+        "fields": {
+            "wild_plant": 22,
+            "plant_part": 8,
+            "usability": 1,
+            "harvest_start": "05",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3aGgKp6TpuP377qa4zu8mgHaE8%26pid%3DApi&f=1&ipt=58e51410b7c68579864e741225fc06ea0b20864d902696c56147ecd11bdbf50b&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 31,
+        "fields": {
+            "wild_plant": 23,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "04",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.kYLhKkEDZFr7OscQnL4rPwHaFj%26pid%3DApi&f=1&ipt=d82f6d725c9976c3a079be9c120a02cc619fb33589c26e0714ca8723d619afb2&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 32,
+        "fields": {
+            "wild_plant": 24,
+            "plant_part": 4,
+            "usability": 3,
+            "harvest_start": "05",
+            "harvest_end": "09",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Z1UqFNtvdJPiRQXxl6zL_AHaJ4%26pid%3DApi&f=1&ipt=eabde4a71de921468a1befc5b369bd54976529259580da799adf931d32c3d346&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 33,
+        "fields": {
+            "wild_plant": 25,
+            "plant_part": 2,
+            "usability": 1,
+            "harvest_start": "06",
+            "harvest_end": "07",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ZhJ3-GrzOHi7gpbURWS2CgHaHa%26pid%3DApi&f=1&ipt=0b4e83948dbc5195c16ade96c23179cfab12affd008fcc585367ca38997aced6&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 34,
+        "fields": {
+            "wild_plant": 26,
+            "plant_part": 1,
+            "usability": 1,
+            "harvest_start": "05",
+            "harvest_end": "10",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.97Zh5141hpLcF4m7UaSVdQHaFh%26pid%3DApi&f=1&ipt=a17d3e309df012da12080acbc7dcad496a8a9ddf93d4b5099204114baac359ce&ipo=images"
+        }
+    },
+    {
+        "model": "foodunderfootapi.ediblepart",
+        "pk": 35,
+        "fields": {
+            "wild_plant": 26,
+            "plant_part": 7,
+            "usability": 1,
+            "harvest_start": "07",
+            "harvest_end": "10",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-K4BOYExhtTI%2FV4Ez-PvWakI%2FAAAAAAABDsE%2F3paeZNyRwtMD47nYZ0Azqu2ewvIqzKgxQCLcB%2Fs1600%2Fcurly%252Bdock%252Bseed%252Bheads%252Bin%252Btwo%252Bstages%252B-kruset%252Bskr%2525C3%2525A6ppe.jpg&f=1&nofb=1&ipt=a7a4b8bcf2b763c3a492852d514f212a288b69fa2354fbbdb6a564e685a7e828&ipo=images"
+        }
     }
 ]

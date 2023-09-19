@@ -79,7 +79,7 @@
             "latin_family": "Cantharellaceae",
             "description": "Chanterelles are a coveted and distinctive species of wild mushrooms. Their striking appearance includes a vibrant golden to orange-yellow coloration, with a cap that typically features a wavy, vase-like shape. The undersides of the caps bear a distinctive network of ridges instead of traditional gills, a feature that helps identify them. Chanterelles have a delicate, almost fruity aroma, and their flavor is described as mild, nutty, and slightly peppery. They are cherished by culinary enthusiasts for their superb taste and culinary versatility. These mushrooms are often found in association with hardwood trees, particularly in mossy, damp woodlands. Renowned for their delightful taste and visually appealing form, chanterelle mushrooms are a prized ingredient in gourmet dishes around the world, making them a true treasure of the forest floor.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.BEX0_2TuSz0-QRLN5MY86QHaFk%26pid%3DApi&f=1&ipt=3e5e804335221b7252522e7eca55204d73707946f71495f2f57ad5f207ba947c&ipo=images",
-            "link_to_usda": "null",
+            "link_to_usda": "https://mdc.mo.gov/discover-nature/field-guide/chanterelles",
             "created_by": 1
         }
     },
@@ -93,7 +93,7 @@
             "latin_family": "Pleurotaceae",
             "description": "Oyster mushrooms are highly regarded edible fungi known for their unique appearance and delicate flavor. They typically have a fan- or oyster-shaped cap that ranges in color from white to various shades of gray and tan. The gills on the undersides of the cap are white and run down the short stem, which is often off-center. Oyster mushrooms are appreciated for their subtle, mild, and slightly nutty taste, making them a versatile ingredient in various cuisines. They are commonly cultivated and also found growing in the wild, often on the trunks of deciduous trees.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.f-XWsgA8zfbdT1trFZibTgHaJM%26pid%3DApi&f=1&ipt=50b60cc1091f382fcf29f136aa5489c7b7221ada3cfc522718db94b8e6f0e59c&ipo=images",
-            "link_to_usda": "null",
+            "link_to_usda": "https://mdc.mo.gov/discover-nature/field-guide/oyster-mushroom",
             "created_by": 1
         }
     },
@@ -108,6 +108,258 @@
             "description": "A small, deciduous trees native to North America. They bear sweet, orange to purplish-black fruits that are known for their rich flavor and custard-like texture when ripe. These fruits have a sweet and subtly spicy taste. Wild American persimmons can be eaten fresh or used in various culinary applications, such as baking, jams, and desserts. In addition to wild American persimmon, these persimmons are prized for their unique flavor and are a cherished find for foragers in their native habitats.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fuky.arboretumexplorer.org%2FAppImages%2F26.jpg&f=1&nofb=1&ipt=de642f37a6a37bdd00d4bec79553faf68d79a75408c7b0068d40cdba91c04eb3&ipo=images",
             "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=DIVI5",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 9,
+        "fields": {
+            "common_name": "goldenrod",
+            "latin_name": "Solidago species",
+            "alternate_names": "solidago, yellow weed",
+            "latin_family": "Asteraceae - Aster family",
+            "description": "Goldenrod is a diverse genus of flowering plants native to North America. These plants are known for their vibrant clusters of yellow flowers that appear in late summer and early fall. They typically grow in meadows, along roadsides, and in open woodlands. Goldenrod can vary in height, with some species growing quite tall and others remaining low to the ground. Their leaves are typically lance-shaped and can be identified by their serrated edges. While some may mistake goldenrod for causing allergies, it's actually ragweed pollen that is the culprit. Goldenrod is an important late-season nectar source for pollinators, making it a valuable plant for wildlife gardens. It is not only attractive to insects but also a valuable medicinal plant in traditional herbal remedies.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.XEla3f7b2r5upCz6R5p-NgHaFj%26pid%3DApi&f=1&ipt=7a06bb5796601c9e7fbff01d0079098e57cce2f211a8bb6480d3dcdd0b0b9d60&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=SOSP2",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 10,
+        "fields": {
+            "common_name": "black mustard",
+            "latin_name": "Brassica nigra",
+            "alternate_names": "wild mustard, charlock",
+            "latin_family": "Brassicaceae - Mustard family",
+            "description": "Black mustard is a cool-season annual plant known for its pungent seeds and vibrant yellow flowers. It is native to regions of Europe, Asia, and North Africa but has become naturalized in many parts of the world. Black mustard typically grows as a tall, erect plant with deeply lobed leaves and clusters of bright yellow flowers with four petals. It is commonly found in fields, along roadsides, and in disturbed areas. Both its leaves and seeds are edible, with the seeds being particularly prized for their spicy flavor. Black mustard seeds are often used as a condiment and spice in various cuisines, and they can be ground into mustard paste. In addition to its culinary uses, black mustard has a history of medicinal use for various ailments.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.EtSRSuqjURyB7TDqY0t2OgHaEc%26pid%3DApi&f=1&ipt=0668528355c2c14f60891efcfe7bf049941c3aac8f8bda8ef6a722e94b4df523&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=BRNI",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 11,
+        "fields": {
+            "common_name": "sugar maple",
+            "latin_name": "Acer saccharum",
+            "alternate_names": "rock maple, hard maple",
+            "latin_family": "Sapindaceae - Soapberry family",
+            "description": "The sugar maple is a large deciduous tree native to eastern North America, including Tennessee. It is well-known for its vibrant autumn foliage, with leaves turning brilliant shades of red, orange, and yellow. Sugar maples are valued for their sweet sap, which is used to make maple syrup. They typically grow in hardwood forests and are a vital part of the region's ecosystem. In addition to syrup production, their wood is used for furniture and flooring.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3XeVJUzJuP4CP7UZyQhLGwHaHa%26pid%3DApi&f=1&ipt=330a7abeeb8bcd0d922e000b38ff8f87c518815f1a5d9aaff338dafc0e67735e&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=ACSA3",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 12,
+        "fields": {
+            "common_name": "mint",
+            "latin_name": "Mentha sp",
+            "alternate_names": "peppermint, spearmint",
+            "latin_family": "Lamiaceae - Mint family",
+            "description": "Mint is a popular aromatic herb with numerous species and varieties, some of which grow in Tennessee. Mint plants are known for their pleasant scent and refreshing flavor. They are commonly used in culinary dishes, teas, and as a fragrant addition to gardens. Mint is easy to identify by its square stems and opposite leaves. It thrives in a variety of conditions and is a versatile herb with various culinary and medicinal applications.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.jmGPMR7EcyBfXSwmxmhmjwHaFj%26pid%3DApi&f=1&ipt=d8899e28d912f9f36cb2d5813a9f221c51a5903e7f20f88cc99bd1dc021ff64b&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=MEAR4",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 13,
+        "fields": {
+            "common_name": "rose",
+            "latin_name": "Rosa multiflora",
+            "alternate_names": "wild rose, dog rose",
+            "latin_family": "Rosaceae - Rose family",
+            "description": "Roses are beautiful and fragrant flowering plants that include wild species. Some wild rose species are found in Tennessee. They are known for their delicate petals and prickly stems. Wild roses have historical and cultural significance and are often associated with love and beauty. While many cultivated roses are grown for their aesthetic value, some wild roses produce small, edible rose hips, which can be used in teas and herbal remedies.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.bqy-zmVgAxj5zHyhk-PWbwHaFj%26pid%3DApi&f=1&ipt=68e414172cb3e3ee71e38a65205e580f01d706cf7253e18f47b0802f1356d051&ipo=images",
+            "link_to_usda": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.jmGPMR7EcyBfXSwmxmhmjwHaFj%26pid%3DApi&f=1&ipt=d8899e28d912f9f36cb2d5813a9f221c51a5903e7f20f88cc99bd1dc021ff64b&ipo=images",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 14,
+        "fields": {
+            "common_name": "mulberry",
+            "latin_name": "Morus sp",
+            "alternate_names": "red mulberry, white mulberry",
+            "latin_family": "Moraceae - Mulberry family",
+            "description": "Mulberries are deciduous trees or shrubs that bear sweet, juicy berries. Some mulberry species, including the red mulberry, can be found in Tennessee. The berries are typically dark purple or red and can be eaten fresh or used in various culinary creations, such as pies, jams, and desserts. Mulberry leaves are also the primary food source for silkworms. These trees are valued for their fruit production and are cultivated in many regions.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F64%2F74%2Ff2%2F6474f29a552187995b07bbe02138d937.jpg&f=1&nofb=1&ipt=86661c5edde543c86016ac0cea5715319e012e9704cdfdfd1722aa21e107a12e&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=MORUS",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 15,
+        "fields": {
+            "common_name": "black walnut",
+            "latin_name": "Juglans nigra",
+            "alternate_names": "eastern black walnut, American walnut",
+            "latin_family": "Juglandaceae - Walnut family",
+            "description": "The black walnut is a large deciduous tree native to eastern North America, including Tennessee. It produces flavorful nuts encased in a hard shell. Black walnuts are highly prized for their rich, earthy flavor and are used in various culinary applications, such as baking and confectionery. The wood of the black walnut tree is also valuable for its fine grain and is used in furniture making and woodworking.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.QXDXT-H0Jv93E27CmrPhCQHaE7%26pid%3DApi&f=1&ipt=96927c707133a10de1b1bcffa6c401a06cfde27b8be1d98c4da056b9e21d50c3&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=JUNI",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 16,
+        "fields": {
+            "common_name": "violet",
+            "latin_name": "Viola",
+            "alternate_names": "common violet, wood violet",
+            "latin_family": "Violaceae - Violet family",
+            "description": "Violets are delicate perennial plants with heart-shaped leaves and colorful flowers. Several violet species can be found in Tennessee. They are often found in woodlands and meadows. Violets are known for their sweet-scented, edible flowers and leaves. The flowers are used as garnishes in salads and desserts, and the leaves are sometimes used in herbal teas. Violets have cultural significance and are associated with spring and renewal.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.LpCDxLkaZMvcVNYkn8bkiwHaE7%26pid%3DApi&f=1&ipt=becfb7e5e0caf8aea2e4fce2315758e0aef7452f15e7491bd1085fc766b7d3f3&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=VIOLA",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 17,
+        "fields": {
+            "common_name": "sassafras",
+            "latin_name": "Sassafras albidum",
+            "alternate_names": "white sassafras, ague tree",
+            "latin_family": "Lauraceae - Laurel family",
+            "description": "Sassafras is a deciduous tree native to eastern North America, including Tennessee. It is known for its distinctive mitten-shaped leaves and fragrant, spicy aroma. Sassafras has a long history of traditional uses. The roots, bark, and leaves have been used to make tea and flavor beverages. The leaves are also used as a spice in some culinary dishes. Sassafras has cultural and historical significance, and its aromatic properties make it a unique addition to the landscape.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.yKWEo_NYLn_sdFDSrFj2NQHaLH%26pid%3DApi&f=1&ipt=1f542cd2ad1aff0ace8a952febac3a9574171d39ee66ab723dc92447e38d67f3&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=SAAL5",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 18,
+        "fields": {
+            "common_name": "purslane",
+            "latin_name": "Portulaca oleracea",
+            "alternate_names": "wild portulaca, pigweed",
+            "latin_family": "Portulacaceae - Purslane family",
+            "description": "Purslane is a succulent plant that is widely distributed and can be found in Tennessee. It is recognized by its fleshy leaves and small yellow flowers. Purslane is edible and has a slightly tart and peppery flavor. It is used in salads, stir-fries, and as a garnish. Purslane is also known for its nutritional value, as it contains high levels of omega-3 fatty acids. It is a hardy and adaptable plant that thrives in various conditions.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eVBdKdT_PbKyAIDwmIf4mwHaFm%26pid%3DApi&f=1&ipt=7a613c2998c54c72c4a90609a6283d9ea655f285faa8b0bb2aa5e3c4c47853a0&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=POOL",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 19,
+        "fields": {
+            "common_name": "wild garlic",
+            "latin_name": "Allium vineale",
+            "alternate_names": "crow garlic, field garlic",
+            "latin_family": "Amaryllidaceae - Amaryllis family",
+            "description": "Wild garlic is a wild onion species that grows in Tennessee. It is known for its slender, hollow leaves and onion-like aroma. Wild garlic is edible, and both its leaves and bulbs can be used in culinary dishes. It adds a mild onion flavor to salads, soups, and various recipes. Wild garlic is a hardy plant that can thrive in a variety of habitats, from meadows to lawns.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkeyserver.lucidcentral.org%2Fweeds%2Fdata%2Fmedia%2FImages%2Fallium_vineale%2Falliumvineale12tj.jpg&f=1&nofb=1&ipt=3bc9825b57b4617307cee46360c3b33618c793618bd98f73d18833014d42887b&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=ALVI",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 20,
+        "fields": {
+            "common_name": "plantain",
+            "latin_name": "Plantago",
+            "alternate_names": "broadleaf plantain, common plantain",
+            "latin_family": "Plantaginaceae - Plantain family",
+            "description": "Plantain is a common herbaceous plant found in Tennessee and many other regions. It is characterized by its broad, ribbed leaves and tall, slender flower spikes. Plantain leaves are edible and have been used in traditional herbal medicine for their soothing properties. They are often used as poultices for insect bites and minor skin irritations. Plantain is a hardy and adaptable plant that can be found in lawns, fields, and disturbed areas.",
+            "image": "",
+            "link_to_usda": "",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 21,
+        "fields": {
+            "common_name": "morel",
+            "latin_name": "Morchella",
+            "alternate_names": "sponge mushroom, true morel",
+            "latin_family": "Morchellaceae - Morel family",
+            "description": "Morels are highly prized edible mushrooms that belong to the genus Morchella. They are known for their distinctive honeycomb appearance, with a porous cap and a hollow stem. Morels are sought after by mushroom foragers and are considered a gourmet delicacy. They typically appear in spring and are often found near trees, especially in wooded areas. Morels can be used in various culinary dishes, such as sautés and sauces.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.w7CS-UveWv-X8v5_1aYi7QHaD4%26pid%3DApi&f=1&ipt=b35d712b8432c2c32e9c1ba44ac6a5965f90232198daaea5434616bdc1a0b5fc&ipo=images",
+            "link_to_usda": "https://www.mushroom.world/show?n=Morchella-esculenta",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 22,
+        "fields": {
+            "common_name": "turkey tail",
+            "latin_name": "Trametes versicolor",
+            "alternate_names": "trametes, turkey tail fungus",
+            "latin_family": "Polyporaceae - Polypore family",
+            "description": "Turkey tail is a common bracket fungus that can be found on decaying logs and tree stumps. It is named for its colorful and concentric rings that resemble a turkey's tail feathers. Turkey tail is not typically consumed as a food but has a long history of use in traditional medicine and herbal remedies. It is believed to have immune-boosting properties and is often used in herbal teas and supplements.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HcaF_Hl5rpG3PTFfAV4SNQHaEJ%26pid%3DApi&f=1&ipt=a09ac19532534aab39162ad8ec03c52f981b1edeb9420ee4583f664f7fd0b84d&ipo=images",
+            "link_to_usda": "https://www.mushroomexpert.com/trametes_versicolor.html",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 23,
+        "fields": {
+            "common_name": "creasy greens",
+            "latin_name": "Barbarea verna",
+            "alternate_names": "winter cress, upland cress",
+            "latin_family": "Brassicaceae - Mustard family",
+            "description": "Creasy greens, also known as winter cress, are leafy green vegetables with a peppery flavor. They are often foraged in early spring and are found in a variety of habitats, including woodlands and fields. Creasy greens are rich in vitamins and minerals and are a nutritious addition to salads and cooked dishes. They have a long history of use in traditional Appalachian cuisine.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F4.bp.blogspot.com%2F-ueYDUzLRiCw%2FVtCRIe3fTZI%2FAAAAAAAADh4%2FYXqShx-685o%2Fs1600%2FHairyBittercress.jpg&f=1&nofb=1&ipt=4c338547e34df7209b27209a891b38edae3648e30775cfb1bf359557609a7419&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=BAVE",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 24,
+        "fields": {
+            "common_name": "red clover",
+            "latin_name": "Trifolium pratense",
+            "alternate_names": "purple clover, meadow clover",
+            "latin_family": "Fabaceae - Legume family",
+            "description": "Red clover is a perennial legume with distinctive pink to purple flower heads. It is often found in meadows and grassy areas. Red clover has a long history of use in traditional herbal medicine and is known for its potential health benefits. It is used to make herbal teas and supplements. Red clover is also valued as a forage plant for livestock.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.CuPql0Jop_b3Wxh0yDcJwwHaE8%26pid%3DApi&f=1&ipt=2ad566f8968c3c311edcd5cecd6fbace198a83e88d9f7f46b229a1ea48838d5e&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=TRPR2",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 25,
+        "fields": {
+            "common_name": "blueberry",
+            "latin_name": "Vaccinium",
+            "alternate_names": "wild blueberry, bilberry, highbush blueberry",
+            "latin_family": "Ericaceae - Heath family",
+            "description": "Blueberries are small, sweet, and nutritious berries that grow on low shrubs. They are found in various regions, including Tennessee. Blueberries are known for their antioxidant properties and are considered a superfood. They are enjoyed fresh, in baked goods, jams, and smoothies. Blueberry picking is a popular outdoor activity, and these berries are also cultivated for commercial use.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.publicdomainpictures.net%2Fpictures%2F270000%2Fvelka%2Fwild-blueberry-bush-1536338426oiz.jpg&f=1&nofb=1&ipt=27136ab3c629252931b69bbaec77ef1e2b520422b2be2d0c3f6af8e81e0a02a7&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=VACCI",
+            "created_by": 1
+        }
+    },
+    {
+        "model": "foodunderfootapi.wildplant",
+        "pk": 26,
+        "fields": {
+            "common_name": "curly dock",
+            "latin_name": "Rumex crispus",
+            "alternate_names": "yellow dock, narrowleaf dock",
+            "latin_family": "Polygonaceae - Knotweed family",
+            "description": "Yellow dock is a perennial herbaceous plant with distinctive curly leaves. It is often found in fields, meadows, and disturbed areas, including Tennessee. Yellow dock is known for its edible leaves and roots. The leaves can be consumed as a cooked green vegetable, while the roots are used in traditional herbal medicine. Yellow dock is valued for its potential health benefits.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.du41b2ww8Fzjwh9H4gGmEgHaE8%26pid%3DApi&f=1&ipt=164cdecf211f9a1b5e4e07dec81dcac72b914c139d53b4c6575fd1cc9d8444d8&ipo=images",
+            "link_to_usda": "https://plants.usda.gov/home/plantProfile?symbol=RUCR",
             "created_by": 1
         }
     }
