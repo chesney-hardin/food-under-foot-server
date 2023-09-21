@@ -1,0 +1,10 @@
+[
+    {
+        "model": "foodunderfootapi.favorite",
+        "pk": 1,
+        "fields": {
+            "tip_or_recipe": 1,
+            "user": 2
+        }
+    }
+]

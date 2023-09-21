@@ -11,6 +11,12 @@ class EdiblePartView(ViewSet):
     def list(self, request):
         """Handle GET requests to get all wild plants"""
         edible_parts = EdiblePart.objects.all()
+
+        usability = request.query_params.get('usability', None)
+
+        if usability is not None:
+            edible_parts =  edible_parts.filter(usability__id=usability)
+
         if "current" in request.query_params:
             current_month = datetime.datetime.now().strftime("%m")
             current_start= edible_parts.filter(harvest_start__lte = current_month)
@@ -19,6 +25,7 @@ class EdiblePartView(ViewSet):
         if "plant" in request.query_params:
             pk = request.query_params['plant']
             edible_parts = edible_parts.filter(wild_plant = pk)
+        
 
         serialized = EdiblePartSerializer(edible_parts, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
@@ -47,6 +54,29 @@ class EdiblePartView(ViewSet):
         )
         serialized = EdiblePartSerializer(edible_part)
         return Response(serialized.data, status=status.HTTP_201_CREATED)
+    
+    def destroy(self, request, pk):
+        """Delete an edible part"""
+        try:
+            edible_part = EdiblePart.objects.get(pk=pk)
+            edible_part.delete()
+            return Response(None, status=status.HTTP_204_NO_CONTENT)
+        except EdiblePart.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        
+    def update(self, request, pk):
+        """Update an edible part"""
+        edible_part = EdiblePart.objects.get(pk=pk)
+
+        edible_part.wild_plant = WildPlant.objects.get(pk=request.data["wild_plant"])
+        edible_part.plant_part = PlantPart.objects.get(pk=request.data["plant_part"])
+        edible_part.usability = Usability.objects.get(pk=request.data["usability"])
+        edible_part.harvest_start = request.data["harvest_start"]
+        edible_part.harvest_end = request.data["harvest_end"]
+        edible_part.image = request.data["image"]
+
+        edible_part.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 
 class EdiblePartsOfPlantSerializer(serializers.ModelSerializer):
     class Meta:
