@@ -11,6 +11,12 @@ class EdiblePartView(ViewSet):
     def list(self, request):
         """Handle GET requests to get all wild plants"""
         edible_parts = EdiblePart.objects.all()
+
+        usability = request.query_params.get('usability', None)
+
+        if usability is not None:
+            edible_parts =  edible_parts.filter(usability__id=usability)
+
         if "current" in request.query_params:
             current_month = datetime.datetime.now().strftime("%m")
             current_start= edible_parts.filter(harvest_start__lte = current_month)
@@ -19,6 +25,7 @@ class EdiblePartView(ViewSet):
         if "plant" in request.query_params:
             pk = request.query_params['plant']
             edible_parts = edible_parts.filter(wild_plant = pk)
+        
 
         serialized = EdiblePartSerializer(edible_parts, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)

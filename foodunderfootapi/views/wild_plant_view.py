@@ -15,6 +15,7 @@ class WildPlantView(ViewSet):
 
         name_search = request.query_params.get('common_name', None)
         edible_part = request.query_params.get('edible_part', None)
+        
 
         if name_search is not None:
             wild_plants = wild_plants.filter(common_name__icontains=name_search)

@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "label": "food",
-            "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.KwMhixk3gPOHcqjcndqoIgHaHu%26pid%3DApi&f=1&ipt=65cae69df56310547c93688204efea02dc6c69750f768fcc7d9116f08566722a&ipo=images"
+            "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.KwMhixk3gPOHcqjcndqoIgHaHu%26pid%3DApi&f=1&ipt=3cd01b71d1067c75b3ab69dd512c9b1650d3267a69c932a2ff0c3ba079e8acf8&ipo=images"
         }
     },
     {
@@ -20,19 +20,7 @@
         "pk": 3,
         "fields": {
             "label": "tea",
-            "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Fpremium%2Fpng-256-thumb%2Ftea-cup-49-619075.png&f=1&nofb=1&ipt=76a26de7cd8359be63c6c185728093e7b5744be1f0ee5b02dec212ac8506c51c&ipo=images"
+            "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.HR_kATqrIKuVy8J-3z632gHaHa%26pid%3DApi&f=1&ipt=e44e5203676b6983710a2171031a797bb2f383047df685e0a81dcb79c4eef967&ipo=images"
         }
-    },
-    {
-        "model": "foodunderfootapi.ediblepart",
-        "pk": 8,
-        "fields": {
-            "wild_plant": ,
-            "plant_part": ,
-            "usability": ,
-            "harvest_start": "05",
-            "harvest_end": "07",
-            "image": ""
-        }
-    },
+    }
 ]
