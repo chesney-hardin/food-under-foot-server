@@ -43,5 +43,95 @@
             "is_staff": true,
             "is_active": true
         }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Z5kc7bmB4iFjcEdOHmbLXU$64mhboYMJSHEU3moTR3AlRtqzSpPRvapLd8gFTjAlb4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lanceb@nss.com",
+            "first_name": "Lance",
+            "last_name": "Buckley",
+            "email": "lanceb@nss.com",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$TioKI3TQjQz8tSBSJo5orf$FylpyTZxa9c0lhdenPi9FAWQgPNqiuUAeicfqk1DtRk=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "danielm@bookclub.com",
+            "first_name": "Daniel",
+            "last_name": "Myers",
+            "email": "danielm@bookclub.com",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$vQ5Gwi3DVymbWZQqGU0wH0$Dp9eh2WoJq2m03Fj5xrLftGs7KEImDpHG0DZ07JQ5jU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "belleh@badass.com",
+            "first_name": "Belle",
+            "last_name": "Hollander",
+            "email": "belleh@badass.com",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$FswH9rRvBEQMla7qOZ2WVs$dN9C6RInMmSayqr3o81AJfvfqf+NAiQj82TTseCv4e0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "jonathanv@fancybrand.com",
+            "first_name": "Jonathan",
+            "last_name": "VanDuyne",
+            "email": "jonathanv@fancybrand.com",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$WIqkXF10vkwuj1sryu5jSn$SBobTbivZDQI1k8EirY41Kg6l+dAnS8D8ezcwq2fFeI=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "ryanp@dopecss.com",
+            "first_name": "Ryan",
+            "last_name": "Philips",
+            "email": "ryanp@dopecss.com",
+            "is_staff": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$yHV69vYKc32t21DrpqnpaM$hOI42BY4n2y2VBNFwa99xIHP38XW/r1vAH7GOnoEjFY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "cassier@cats.com",
+            "first_name": "Cassie",
+            "last_name": "Revell",
+            "email": "cassier@cats.com",
+            "is_staff": false,
+            "is_active": true
+        }
     }
 ]

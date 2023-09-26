@@ -12,8 +12,87 @@
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.kIfO4bCImtxECVRFsD49TAHaFj%26pid%3DApi&f=1&ipt=2f401cea88ed2c7879a128911edca7316771fa37bac7f885bc1059b9e0189047&ipo=images",
             "isRecipe": true,
             "isApproved": false,
-            "needsReview": true,
-            "reasonUnapproved": ""
+            "needsReview": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.tipsandrecipes",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "date": "2023-09-18",
+            "wild_plant": 1,
+            "plant_part": 2,
+            "title": "How to harvest pawpaws",
+            "description": "When harvesting pawpaws, it's essential to look for ripe fruit with a slight yield when gently squeezed. Mature pawpaws typically have a yellowish-green skin that yields to pressure. Avoid picking green, hard fruits as they need more time to ripen. Use pruning shears or scissors to cut the stem about an inch above the fruit, being careful not to damage the tree. Pawpaws are delicate, so handle them with care to prevent bruising. Enjoy the sweet and custardy flesh of ripe pawpaws, which are perfect for eating fresh or using in various recipes like pies, smoothies, and jams. EDITTED",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3a_Rrjo9RMYkxlTSrfk1DQHaFj%26pid%3DApi&f=1&ipt=df1b89d3babdbac3849a0bb92a46319286dc82bcf5387d19f42303adf8617ec8&ipo=images",
+            "isRecipe": false,
+            "isApproved": true,
+            "needsReview": false
+        }
+    },
+    {
+        "model": "foodunderfootapi.tipsandrecipes",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "date": "2023-09-18",
+            "wild_plant": 2,
+            "plant_part": 3,
+            "title": "Sustainably harvest ramps!",
+            "description": "Sustainably harvesting ramp roots, a popular wild edible, is crucial to preserve these delicate plants and their ecosystems. When collecting ramps, it's essential to follow ethical practices. First, only take a small portion of the population, leaving the majority undisturbed. Carefully dig around the base of the plant, loosening the soil to extract the root without causing unnecessary damage. Never remove the entire plant, as this prevents it from reproducing. After harvesting, cover the disturbed soil to protect it from erosion and aid in ramp regeneration. Finally, always respect local regulations and guidelines to ensure the long-term sustainability of this cherished foraged delicacy while preserving the natural balance of the forest floor.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.NLYLbwZXVsn59wkwEu9caAHaFj%26pid%3DApi&f=1&ipt=d88e8131f0093c4e913cbe89d00f50bfcc666191d26713550ecf5b1927e0e81c&ipo=images",
+            "isRecipe": false,
+            "isApproved": true,
+            "needsReview": false
+        }
+    },
+    {
+        "model": "foodunderfootapi.tipsandrecipes",
+        "pk": 4,
+        "fields": {
+            "user": 2,
+            "date": "2023-09-18",
+            "wild_plant": 3,
+            "plant_part": 4,
+            "title": "Proper harvesting of blackberry leaves",
+            "description": "Harvesting blackberry leaves can be a rewarding endeavor, as they are valuable for making teas and herbal remedies. When collecting blackberry leaves, it's important to choose young, vibrant leaves. These leaves are typically found near the top of the plant and have a richer flavor and aroma. Use scissors or garden shears to carefully snip the leaves, leaving the rest of the plant intact for future growth. Be mindful of thorns and wear gloves for protection. Avoid leaves that show signs of disease or pest damage. Once harvested, gently wash the leaves and allow them to dry thoroughly before using them for tea or other purposes. By following these tips, you can enjoy the benefits of fresh, hand-harvested blackberry leaves while ensuring the health and vitality of the blackberry plant.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.o2TDP1YROgo-1iAX8t5PhwAAAA%26pid%3DApi&f=1&ipt=37ce153fd68462077db584784cf0c748ad133f23f94f741189619b40e7a21da6&ipo=images",
+            "isRecipe": false,
+            "isApproved": true,
+            "needsReview": false
+        }
+    },
+    {
+        "model": "foodunderfootapi.tipsandrecipes",
+        "pk": 7,
+        "fields": {
+            "user": 2,
+            "date": "2023-09-20",
+            "wild_plant": 5,
+            "plant_part": 3,
+            "title": "Dandelion Root Harvest",
+            "description": "The best way to harvest dandelion roots is to start in the early spring or late fall when the plant's energy is concentrated in its roots. Begin by using a small shovel or garden fork to loosen the soil around the dandelion plant, taking care to dig deep enough to access the entire root. Gently pry the root from the soil, being mindful not to break it. To ensure a successful harvest, it's crucial to choose a location free from pesticides and contaminants. After harvesting, thoroughly wash and scrub the roots to remove dirt and debris. Dandelion roots can be dried for later use in teas, tinctures, or herbal remedies, offering a myriad of health benefits.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.2FMfJDOc42qgSKn8OLo7qQHaEs%26pid%3DApi&f=1&ipt=a75f1a055f9cc49353ed756c31f6402bd6a6615996f04a79d9c5ef2d8c21b243&ipo=images",
+            "isRecipe": false,
+            "isApproved": true,
+            "needsReview": false
+        }
+    },
+    {
+        "model": "foodunderfootapi.tipsandrecipes",
+        "pk": 8,
+        "fields": {
+            "user": 4,
+            "date": "2023-09-20",
+            "wild_plant": 2,
+            "plant_part": 2,
+            "title": "paw paw bread",
+            "description": "This cherished family recipe for Pawpaw Bread has been passed down through generations, carrying with it the essence of nostalgia and the sweet flavors of the Southern Appalachians. To begin, gather ripe pawpaws, ideally from a tree nurtured by your family. Mash the pawpaw pulp until creamy, mix it with flour, sugar, eggs, and a hint of cinnamon, capturing the pawpaw's custardy sweetness. Generously grease a trusty family loaf pan, pour in the batter, and bake until golden and moist. This Pawpaw Bread is more than a treat; it's a taste of tradition and a connection to the land. Serve it fresh, perhaps with homemade whipped cream, and share it with loved ones, passing down not just a recipe but the stories and memories that make it special. Enjoy the delicious legacy of your family's pawpaw tradition!",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.6oH6xNAKh-4qmm2ofs68IgHaEK%26pid%3DApi&f=1&ipt=53951a2adc047320461e2e969f4e442c8618a1f8445fb5e1c6e50899fd0af636&ipo=images",
+            "isRecipe": false,
+            "isApproved": true,
+            "needsReview": false
         }
     }
 ]

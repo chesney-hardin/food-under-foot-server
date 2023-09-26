@@ -16,5 +16,150 @@
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ifuSgEBbh7aE5jXmjqVK-wHaE8%26pid%3DApi&f=1&ipt=5b802100aec2fa0edcf247a4ed3372a3eca237aec6f37d663eda4890466f9861&ipo=images",
             "isPublic": true
         }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 2,
+        "fields": {
+            "user": 5,
+            "date": "2023-09-07",
+            "wild_plant": 8,
+            "plant_part": 9,
+            "latitude": 35.7548649747647,
+            "longitude": -87.520401678862,
+            "isPublicLocation": true,
+            "quantity": "1.5 pounds",
+            "title": "bountiful goldenrod harvest",
+            "description": "A spot to remember!! Driving out on some backroads out near Centerville I came across a great goldenrod patch along the road and stocked up.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNf78FCLyzplVhqslt99IqgoMGWPes9_e_-w&usqp=CAU",
+            "isPublic": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 3,
+        "fields": {
+            "user": 2,
+            "date": "2023-08-04",
+            "wild_plant": 2,
+            "plant_part": 2,
+            "latitude": 36.2692610968987,
+            "longitude": -87.2829331619323,
+            "isPublicLocation": false,
+            "quantity": "3 gallons",
+            "title": "great blackberry harvest!",
+            "description": "We had a great day out near Ashland City harvesting tons of blackberries on our friends' property. It was a clear day. The berries were just getting ripe enough because they'd been way too tart the last few weeks we went out.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.xSohX0vHQUEE21rGs7XxmAHaJP%26pid%3DApi&f=1&ipt=98c4fbe9d2a28a6ee875887d31f771f9d53cf50073a45787ad52a1fd2b2cb5e5&ipo=images",
+            "isPublic": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "date": "2023-07-14",
+            "wild_plant": 2,
+            "plant_part": 4,
+            "latitude": 36.3018534469757,
+            "longitude": -86.7717186541587,
+            "isPublicLocation": false,
+            "quantity": "a pound and a half",
+            "title": "Great backyard dandelion harvest!",
+            "description": "I had one of my best dandelion flower harvests this year!! I helped spread the seed in a corner of my yard the past couple of years and it has really paid off. They seemed to flower a little later than I expected this year, but it has been a mild summer. I'm planning to make my first batch of dandelion flower wine this week! If it goes well, I'll post the recipe on the dandelion page :)",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.MoYCAIUqhDAM50EJcZYKfQHaFj%26pid%3DApi&f=1&ipt=ae306c12933a6529436dc1cf2862769213030a3af8ad0b582e544d9c5819d95e&ipo=images",
+            "isPublic": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "date": "2023-09-01",
+            "wild_plant": 12,
+            "plant_part": 1,
+            "latitude": 35.9497222596317,
+            "longitude": -87.0510475681205,
+            "isPublicLocation": false,
+            "quantity": "3 large bags",
+            "title": "Great mint patch!",
+            "description": "One sunny morning, I decided to embark on a wild mint harvesting adventure near the charming town of Fairview, Tennessee. The weather was as whimsical as a toddler's laughter, with the sun playing hide-and-seek among the fluffy clouds. A light breeze rustled the leaves, and the air was filled with the sweet scent of impending minty conquest. Armed with a basket and a pair of scissors, I ventured into the untamed green wilderness. My destination was a secret spot I had stumbled upon years ago—a hidden meadow nestled between rolling hills. As I approached, I marveled at the wildflowers swaying in the wind, performing a delicate ballet for anyone who cared to watch. The mint, my main prize, was scattered like a green confetti carpet beneath the dancing flowers. With each snip of my scissors, the aroma of fresh mint enveloped me, and I couldn't help but smile. It felt like Mother Nature herself was sharing a secret recipe, and I was her eager apprentice. I returned home with a basket full of wild mint and a heart full of joy, knowing that every cup of mint tea or batch of minty cookies would be flavored with the magic of that sunny day in Fairview, Tennessee.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.xNzPbr3c3ME6fGnOJV_DygHaD4%26pid%3DApi&f=1&ipt=bbb18ffb06693b5328432515645a829ba17f8f3601305821e73a3cb0035dd9f7&ipo=images",
+            "isPublic": true
+        }
+    }, 
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 6,
+        "fields": {
+            "user": 2,
+            "date": "2023-08-18",
+            "wild_plant": 5,
+            "plant_part": 2,
+            "latitude": 36.4456924561035,
+            "longitude": -87.3185081131061,
+            "isPublicLocation": false,
+            "quantity": "20 pounds",
+            "title": "Clarksville pawpaw spot",
+            "description": "Nestled deep within the heart of Tennessee, there lies a hidden oasis for paw paw enthusiasts like myself. The location, a well-kept secret among the locals, is a lush, secluded valley near the town of Clarksville, Tennessee. As summer slowly gave way to early autumn, I embarked on a pilgrimage to this paw paw paradise. The weather was splendid, with the sun casting a warm, golden glow upon the emerald landscape. The valley was cradled by towering ancient trees, their leaves painted in various shades of green and amber. The anticipation of a bountiful harvest filled the air as I descended into the valley, where the paw paw trees, their branches heavy with the fragrant, greenish-yellow fruits, awaited. With each step, I could feel the ground beneath my feet giving softly, as if it held the secret to the valley's abundance. The harvest was a treasure hunt, with each paw paw, plucked gently from the tree, revealing its custardy, tropical goodness. It was as if the valley whispered its secrets to those who knew where to look, and I felt fortunate to be one of its chosen harvesters, gathering memories as sweet as the paw paws themselves.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._4H3HLjUmXyVOLV--GASQwHaFj%26pid%3DApi&f=1&ipt=ccd4970f19861bbe5961c0185bc27d331e2c9ab3d90db633766caf3ad03412e5&ipo=images",
+            "isPublic": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 7,
+        "fields": {
+            "user": 2,
+            "date": "2023-09-14",
+            "wild_plant": 5,
+            "plant_part": 2,
+            "latitude": 36.1099014571374,
+            "longitude": -86.5954031843482,
+            "isPublicLocation": true,
+            "quantity": "2 gallons",
+            "title": "Persimmons on Percy Priest",
+            "description": "One crisp, autumn morning, I embarked on a delightful adventure along the shores of Percy Priest Lake in Tennessee, in search of the elusive American persimmon harvest. The weather was an artist's palette, with the trees adorning themselves in shades of gold, red, and orange, as if preparing for a grand celebration. The location couldn't have been more picturesque, with the tranquil lake stretching out before me, reflecting the fiery foliage in its shimmering waters. As I ventured deeper into the woods that lined the lake, I could feel the excitement building in the air. The American persimmon trees, their branches heavy with vibrant orange fruits, beckoned to me like old friends welcoming me back. With each pluck, the persimmons released a sweet, honeyed aroma that hung in the air, making my mouth water in anticipation. The ripe persimmons yielded easily to my touch, their soft, velvety skins giving way to reveal the treasure within. It was as if nature had hidden these little gems, waiting for just the right moment to share their deliciousness with those who sought them. With each persimmon I gathered, I couldn't help but feel a deep connection to the land and its bounty, and I left Percy Priest Lake with a heart full of gratitude and a basket full of the season's sweetest harvest.",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DBBOsnsaHXkfUfDnlAX5owAAAA%26pid%3DApi&f=1&ipt=8d7e2bdb4a1b7cbe79e388cf4075c9bad6014b8771f39b67be2030870a0a2873&ipo=images",
+            "isPublic": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "date": "2023-08-10",
+            "wild_plant": 7,
+            "plant_part": 1,
+            "latitude": 36.042568398893,
+            "longitude": -85.8167988982793,
+            "isPublicLocation": true,
+            "quantity": "2.5 pounds",
+            "title": "Dandelion patch at state park",
+            "description": "A perfect dandelion leaf harvest at the state park is a delightful blend of nature's bounty and a heartwarming connection to the great outdoors. As the sun bathes the meadows in golden light, families and nature enthusiasts gather to forage the lush, emerald dandelion leaves. With gentle fingers, they pluck the tender, slightly peppery greens, carefully preserving the plant's vibrant health. The state park's pristine beauty provides an idyllic backdrop, as laughter and shared stories fill the air. Each harvested leaf becomes a token of the day's adventure, a reminder of the simple pleasures found in the heart of nature's embrace.",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRhny7eCE0T00UEqkVhhG_2fqtLSvShZLVOQ&usqp=CAU",
+            "isPublic": true
+        }
+    },
+    {
+        "model": "foodunderfootapi.harvestlog",
+        "pk": 9,
+        "fields": {
+            "user": 2,
+            "date": "2023-08-16",
+            "wild_plant": 8,
+            "plant_part": 2,
+            "latitude": 35.4970604918835,
+            "longitude": -85.6085308249491,
+            "isPublicLocation": false,
+            "quantity": "17 pounds",
+            "title": "McMinnville pawpaws",
+            "description": "So many awesome pawpaws near McMinnville at my cousin's property. They were so good and perfectly ripe! I want to remember the spot right by the southeastern side of the pond. I hadn't seen that patch before and it is by far the best yet!",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQkDPvNiJIuE2hPWYXbPvuOBtvqPhlWvkwMg&usqp=CAU",
+            "isPublic": true
+        }
     }
+    
 ]
